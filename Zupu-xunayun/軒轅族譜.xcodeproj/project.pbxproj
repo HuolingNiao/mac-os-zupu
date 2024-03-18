@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B16F0F82B58DB3C008166DE /* 分之图页面基本.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B16F0F72B58DB3C008166DE /* 分之图页面基本.swift */; };
+		7B16F0FA2B58E135008166DE /* 分之图显示页面.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B16F0F92B58E135008166DE /* 分之图显示页面.swift */; };
+		7B16F0FC2B59EE3C008166DE /* 欢迎界面.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B16F0FB2B59EE3C008166DE /* 欢迎界面.swift */; };
+		7B16F0FE2B5A2E21008166DE /* 读取界面.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B16F0FD2B5A2E20008166DE /* 读取界面.swift */; };
+		7B64D7472B4A5BB900335818 /* Zupu_xunayunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B64D7462B4A5BB900335818 /* Zupu_xunayunApp.swift */; };
+		7B64D7492B4A5BB900335818 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B64D7482B4A5BB900335818 /* ContentView.swift */; };
+		7B64D74B2B4A5BBA00335818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B64D74A2B4A5BBA00335818 /* Assets.xcassets */; };
+		7B64D74E2B4A5BBA00335818 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B64D74D2B4A5BBA00335818 /* Preview Assets.xcassets */; };
+		7B95383C2B4AB546005461D8 /* 分之图.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538382B4AB546005461D8 /* 分之图.swift */; };
+		7B95383D2B4AB546005461D8 /* 分之图编辑.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538392B4AB546005461D8 /* 分之图编辑.swift */; };
+		7B95383E2B4AB546005461D8 /* 分支圖人物數據組件.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B95383A2B4AB546005461D8 /* 分支圖人物數據組件.swift */; };
+		7B95383F2B4AB546005461D8 /* 人物输入.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B95383B2B4AB546005461D8 /* 人物输入.swift */; };
+		7B9538442B4AB5AB005461D8 /* 共用數據重要max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538402B4AB5AB005461D8 /* 共用數據重要max.swift */; };
+		7B9538452B4AB5AB005461D8 /* 紙張尺寸.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538412B4AB5AB005461D8 /* 紙張尺寸.swift */; };
+		7B9538462B4AB5AB005461D8 /* 文件管理.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538422B4AB5AB005461D8 /* 文件管理.swift */; };
+		7B9538472B4AB5AB005461D8 /* 農曆.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538432B4AB5AB005461D8 /* 農曆.swift */; };
+		7B95384A2B4AB5F1005461D8 /* 視圖組件.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538482B4AB5F1005461D8 /* 視圖組件.swift */; };
+		7B95384B2B4AB5F1005461D8 /* 文字風格.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538492B4AB5F1005461D8 /* 文字風格.swift */; };
+		7B95384F2B4AB648005461D8 /* 预设.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B95384C2B4AB648005461D8 /* 预设.swift */; };
+		7B9538502B4AB648005461D8 /* 族譜數據庫.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B95384D2B4AB648005461D8 /* 族譜數據庫.swift */; };
+		7B9538512B4AB648005461D8 /* 成員數據定義.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B95384E2B4AB648005461D8 /* 成員數據定義.swift */; };
+		7B9538542B4ACDFF005461D8 /* 成員文本視圖組件.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538532B4ACDFF005461D8 /* 成員文本視圖組件.swift */; };
+		7B9538562B4ACE23005461D8 /* 封面.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538552B4ACE23005461D8 /* 封面.swift */; };
+		7B9538582B4ACE3E005461D8 /* 书牌.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538572B4ACE3E005461D8 /* 书牌.swift */; };
+		7B95385A2B4ACE63005461D8 /* 文本内容組件.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9538592B4ACE63005461D8 /* 文本内容組件.swift */; };
+		7B95385D2B4ACFF8005461D8 /* NS圖片.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B95385C2B4ACFF8005461D8 /* NS圖片.swift */; };
+		7B95385F2B4AD195005461D8 /* 文本內容（前言）.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B95385E2B4AD195005461D8 /* 文本內容（前言）.swift */; };
+		7BBB057B2B4B642B008B3B9F /* PDF相關.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB057A2B4B642B008B3B9F /* PDF相關.swift */; };
+		7BFF115C2B4C3EDD00757800 /* 成員內容頁.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF115B2B4C3EDC00757800 /* 成員內容頁.swift */; };
+		7BFF115E2B4C3F9700757800 /* 工具欄.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF115D2B4C3F9700757800 /* 工具欄.swift */; };
+		7BFF11612B4C406000757800 /* 內容頁面歸一.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF115F2B4C406000757800 /* 內容頁面歸一.swift */; };
+		7BFF11622B4C406000757800 /* 編輯頁面.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF11602B4C406000757800 /* 編輯頁面.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B16F0F72B58DB3C008166DE /* 分之图页面基本.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "分之图页面基本.swift"; sourceTree = "<group>"; };
+		7B16F0F92B58E135008166DE /* 分之图显示页面.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "分之图显示页面.swift"; sourceTree = "<group>"; };
+		7B16F0FB2B59EE3C008166DE /* 欢迎界面.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "欢迎界面.swift"; sourceTree = "<group>"; };
+		7B16F0FD2B5A2E20008166DE /* 读取界面.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "读取界面.swift"; sourceTree = "<group>"; };
+		7B64D7432B4A5BB900335818 /* Zupu-xunayun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zupu-xunayun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B64D7462B4A5BB900335818 /* Zupu_xunayunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zupu_xunayunApp.swift; sourceTree = "<group>"; };
+		7B64D7482B4A5BB900335818 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B64D74A2B4A5BBA00335818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B64D74D2B4A5BBA00335818 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B64D74F2B4A5BBA00335818 /* Zupu_xunayun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Zupu_xunayun.entitlements; sourceTree = "<group>"; };
+		7B64D7552B4A5F1900335818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7B9538382B4AB546005461D8 /* 分之图.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "分之图.swift"; sourceTree = "<group>"; };
+		7B9538392B4AB546005461D8 /* 分之图编辑.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "分之图编辑.swift"; sourceTree = "<group>"; };
+		7B95383A2B4AB546005461D8 /* 分支圖人物數據組件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "分支圖人物數據組件.swift"; sourceTree = "<group>"; };
+		7B95383B2B4AB546005461D8 /* 人物输入.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "人物输入.swift"; sourceTree = "<group>"; };
+		7B9538402B4AB5AB005461D8 /* 共用數據重要max.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "共用數據重要max.swift"; sourceTree = "<group>"; };
+		7B9538412B4AB5AB005461D8 /* 紙張尺寸.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "紙張尺寸.swift"; sourceTree = "<group>"; };
+		7B9538422B4AB5AB005461D8 /* 文件管理.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "文件管理.swift"; sourceTree = "<group>"; };
+		7B9538432B4AB5AB005461D8 /* 農曆.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "農曆.swift"; sourceTree = "<group>"; };
+		7B9538482B4AB5F1005461D8 /* 視圖組件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "視圖組件.swift"; sourceTree = "<group>"; };
+		7B9538492B4AB5F1005461D8 /* 文字風格.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "文字風格.swift"; sourceTree = "<group>"; };
+		7B95384C2B4AB648005461D8 /* 预设.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "预设.swift"; sourceTree = "<group>"; };
+		7B95384D2B4AB648005461D8 /* 族譜數據庫.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "族譜數據庫.swift"; sourceTree = "<group>"; };
+		7B95384E2B4AB648005461D8 /* 成員數據定義.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "成員數據定義.swift"; sourceTree = "<group>"; };
+		7B9538532B4ACDFF005461D8 /* 成員文本視圖組件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "成員文本視圖組件.swift"; sourceTree = "<group>"; };
+		7B9538552B4ACE23005461D8 /* 封面.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "封面.swift"; sourceTree = "<group>"; };
+		7B9538572B4ACE3E005461D8 /* 书牌.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "书牌.swift"; sourceTree = "<group>"; };
+		7B9538592B4ACE63005461D8 /* 文本内容組件.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "文本内容組件.swift"; sourceTree = "<group>"; };
+		7B95385C2B4ACFF8005461D8 /* NS圖片.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NS圖片.swift"; sourceTree = "<group>"; };
+		7B95385E2B4AD195005461D8 /* 文本內容（前言）.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "文本內容（前言）.swift"; sourceTree = "<group>"; };
+		7BBB057A2B4B642B008B3B9F /* PDF相關.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDF相關.swift"; sourceTree = "<group>"; };
+		7BFF115B2B4C3EDC00757800 /* 成員內容頁.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "成員內容頁.swift"; sourceTree = "<group>"; };
+		7BFF115D2B4C3F9700757800 /* 工具欄.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "工具欄.swift"; sourceTree = "<group>"; };
+		7BFF115F2B4C406000757800 /* 內容頁面歸一.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "內容頁面歸一.swift"; sourceTree = "<group>"; };
+		7BFF11602B4C406000757800 /* 編輯頁面.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "編輯頁面.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B64D7402B4A5BB900335818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B16F0F62B58DB13008166DE /* 分之图页面相关 */ = {
+			isa = PBXGroup;
+			children = (
+				7B16F0F72B58DB3C008166DE /* 分之图页面基本.swift */,
+				7B16F0F92B58E135008166DE /* 分之图显示页面.swift */,
+			);
+			path = "分之图页面相关";
+			sourceTree = "<group>";
+		};
+		7B64D73A2B4A5BB800335818 = {
+			isa = PBXGroup;
+			children = (
+				7B64D7452B4A5BB900335818 /* Zupu-xunayun */,
+				7B64D7442B4A5BB900335818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B64D7442B4A5BB900335818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B64D7432B4A5BB900335818 /* Zupu-xunayun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B64D7452B4A5BB900335818 /* Zupu-xunayun */ = {
+			isa = PBXGroup;
+			children = (
+				7B95385B2B4ACF61005461D8 /* PDF */,
+				7B9538372B4AB4EF005461D8 /* 分支圖 */,
+				7B9538362B4AB4D7005461D8 /* UI設計 */,
+				7B9538352B4AB4CB005461D8 /* 數據庫 */,
+				7B9538342B4AB4BC005461D8 /* 通用文件 */,
+				7B64D7552B4A5F1900335818 /* Info.plist */,
+				7B64D7462B4A5BB900335818 /* Zupu_xunayunApp.swift */,
+				7B64D7482B4A5BB900335818 /* ContentView.swift */,
+				7B64D74A2B4A5BBA00335818 /* Assets.xcassets */,
+				7B64D74F2B4A5BBA00335818 /* Zupu_xunayun.entitlements */,
+				7B64D74C2B4A5BBA00335818 /* Preview Content */,
+			);
+			path = "Zupu-xunayun";
+			sourceTree = "<group>";
+		};
+		7B64D74C2B4A5BBA00335818 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B64D74D2B4A5BBA00335818 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B9538342B4AB4BC005461D8 /* 通用文件 */ = {
+			isa = PBXGroup;
+			children = (
+				7B9538482B4AB5F1005461D8 /* 視圖組件.swift */,
+				7B9538492B4AB5F1005461D8 /* 文字風格.swift */,
+				7B9538402B4AB5AB005461D8 /* 共用數據重要max.swift */,
+				7B9538432B4AB5AB005461D8 /* 農曆.swift */,
+				7B9538422B4AB5AB005461D8 /* 文件管理.swift */,
+				7B9538412B4AB5AB005461D8 /* 紙張尺寸.swift */,
+			);
+			path = "通用文件";
+			sourceTree = "<group>";
+		};
+		7B9538352B4AB4CB005461D8 /* 數據庫 */ = {
+			isa = PBXGroup;
+			children = (
+				7B95384E2B4AB648005461D8 /* 成員數據定義.swift */,
+				7B95384C2B4AB648005461D8 /* 预设.swift */,
+				7B95384D2B4AB648005461D8 /* 族譜數據庫.swift */,
+			);
+			path = "數據庫";
+			sourceTree = "<group>";
+		};
+		7B9538362B4AB4D7005461D8 /* UI設計 */ = {
+			isa = PBXGroup;
+			children = (
+				7B16F0F62B58DB13008166DE /* 分之图页面相关 */,
+				7B9538522B4ACDA8005461D8 /* 組件 */,
+				7B9538572B4ACE3E005461D8 /* 书牌.swift */,
+				7B9538552B4ACE23005461D8 /* 封面.swift */,
+				7B16F0FB2B59EE3C008166DE /* 欢迎界面.swift */,
+				7B16F0FD2B5A2E20008166DE /* 读取界面.swift */,
+			);
+			path = "UI設計";
+			sourceTree = "<group>";
+		};
+		7B9538372B4AB4EF005461D8 /* 分支圖 */ = {
+			isa = PBXGroup;
+			children = (
+				7B9538382B4AB546005461D8 /* 分之图.swift */,
+				7B9538392B4AB546005461D8 /* 分之图编辑.swift */,
+				7B95383A2B4AB546005461D8 /* 分支圖人物數據組件.swift */,
+				7B95383B2B4AB546005461D8 /* 人物输入.swift */,
+			);
+			path = "分支圖";
+			sourceTree = "<group>";
+		};
+		7B9538522B4ACDA8005461D8 /* 組件 */ = {
+			isa = PBXGroup;
+			children = (
+				7BFF11602B4C406000757800 /* 編輯頁面.swift */,
+				7BFF115F2B4C406000757800 /* 內容頁面歸一.swift */,
+				7BFF115D2B4C3F9700757800 /* 工具欄.swift */,
+				7BFF115B2B4C3EDC00757800 /* 成員內容頁.swift */,
+				7B95385E2B4AD195005461D8 /* 文本內容（前言）.swift */,
+				7B9538592B4ACE63005461D8 /* 文本内容組件.swift */,
+				7B9538532B4ACDFF005461D8 /* 成員文本視圖組件.swift */,
+			);
+			path = "組件";
+			sourceTree = "<group>";
+		};
+		7B95385B2B4ACF61005461D8 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				7B95385C2B4ACFF8005461D8 /* NS圖片.swift */,
+				7BBB057A2B4B642B008B3B9F /* PDF相關.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B64D7422B4A5BB900335818 /* Zupu-xunayun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B64D7522B4A5BBA00335818 /* Build configuration list for PBXNativeTarget "Zupu-xunayun" */;
+			buildPhases = (
+				7B64D73F2B4A5BB900335818 /* Sources */,
+				7B64D7402B4A5BB900335818 /* Frameworks */,
+				7B64D7412B4A5BB900335818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zupu-xunayun";
+			productName = "Zupu-xunayun";
+			productReference = 7B64D7432B4A5BB900335818 /* Zupu-xunayun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B64D73B2B4A5BB800335818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7B64D7422B4A5BB900335818 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 7B64D73E2B4A5BB800335818 /* Build configuration list for PBXProject "軒轅族譜" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 7B64D73A2B4A5BB800335818;
+			productRefGroup = 7B64D7442B4A5BB900335818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B64D7422B4A5BB900335818 /* Zupu-xunayun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B64D7412B4A5BB900335818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B64D74E2B4A5BBA00335818 /* Preview Assets.xcassets in Resources */,
+				7B64D74B2B4A5BBA00335818 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B64D73F2B4A5BB900335818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B95383E2B4AB546005461D8 /* 分支圖人物數據組件.swift in Sources */,
+				7B9538472B4AB5AB005461D8 /* 農曆.swift in Sources */,
+				7B95385F2B4AD195005461D8 /* 文本內容（前言）.swift in Sources */,
+				7BFF11612B4C406000757800 /* 內容頁面歸一.swift in Sources */,
+				7B9538462B4AB5AB005461D8 /* 文件管理.swift in Sources */,
+				7BFF115E2B4C3F9700757800 /* 工具欄.swift in Sources */,
+				7B95385D2B4ACFF8005461D8 /* NS圖片.swift in Sources */,
+				7B9538542B4ACDFF005461D8 /* 成員文本視圖組件.swift in Sources */,
+				7B95383D2B4AB546005461D8 /* 分之图编辑.swift in Sources */,
+				7BFF11622B4C406000757800 /* 編輯頁面.swift in Sources */,
+				7B9538512B4AB648005461D8 /* 成員數據定義.swift in Sources */,
+				7BBB057B2B4B642B008B3B9F /* PDF相關.swift in Sources */,
+				7B16F0FC2B59EE3C008166DE /* 欢迎界面.swift in Sources */,
+				7B95384F2B4AB648005461D8 /* 预设.swift in Sources */,
+				7B9538562B4ACE23005461D8 /* 封面.swift in Sources */,
+				7B95385A2B4ACE63005461D8 /* 文本内容組件.swift in Sources */,
+				7B95383F2B4AB546005461D8 /* 人物输入.swift in Sources */,
+				7B16F0F82B58DB3C008166DE /* 分之图页面基本.swift in Sources */,
+				7BFF115C2B4C3EDD00757800 /* 成員內容頁.swift in Sources */,
+				7B16F0FA2B58E135008166DE /* 分之图显示页面.swift in Sources */,
+				7B95384A2B4AB5F1005461D8 /* 視圖組件.swift in Sources */,
+				7B64D7492B4A5BB900335818 /* ContentView.swift in Sources */,
+				7B9538502B4AB648005461D8 /* 族譜數據庫.swift in Sources */,
+				7B95384B2B4AB5F1005461D8 /* 文字風格.swift in Sources */,
+				7B9538442B4AB5AB005461D8 /* 共用數據重要max.swift in Sources */,
+				7B9538452B4AB5AB005461D8 /* 紙張尺寸.swift in Sources */,
+				7B16F0FE2B5A2E21008166DE /* 读取界面.swift in Sources */,
+				7B9538582B4ACE3E005461D8 /* 书牌.swift in Sources */,
+				7B64D7472B4A5BB900335818 /* Zupu_xunayunApp.swift in Sources */,
+				7B95383C2B4AB546005461D8 /* 分之图.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B64D7502B4A5BBA00335818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7B64D7512B4A5BBA00335818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7B64D7532B4A5BBA00335818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Zupu-xunayun/Zupu_xunayun.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zupu-xunayun/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zupu-xunayun/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.5.Zupu-xunayun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7B64D7542B4A5BBA00335818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Zupu-xunayun/Zupu_xunayun.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zupu-xunayun/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zupu-xunayun/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.5.Zupu-xunayun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B64D73E2B4A5BB800335818 /* Build configuration list for PBXProject "軒轅族譜" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B64D7502B4A5BBA00335818 /* Debug */,
+				7B64D7512B4A5BBA00335818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B64D7522B4A5BBA00335818 /* Build configuration list for PBXNativeTarget "Zupu-xunayun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B64D7532B4A5BBA00335818 /* Debug */,
+				7B64D7542B4A5BBA00335818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B64D73B2B4A5BB800335818 /* Project object */;
+}
